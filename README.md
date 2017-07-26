@@ -47,7 +47,6 @@
 ## <a name="tech-stack"></a>Tech Stack
 
   | Backend | Frontend |
-  |:----------------:|
   | [Node.js](https://github.com/nodejs/node) | [React.js](https://github.com/facebook/react) | 
   | [Express.js](https://github.com/expressjs/express) | [Redux.js](https://github.com/reactjs/redux) 
   | [Sequelize](https://github.com/sequelize/sequelize) | [Material Design Lite](https://getmdl.io/index.html) 
