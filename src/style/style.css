@@ -1,0 +1,28 @@
+
+/* login-page */
+
+.login_container {
+  background-color: blue;
+}
+
+.special-offer {
+  background: #ffefee;
+  min-height: 45px;
+  border-bottom: 3px solid #ff5543;
+  display: flex;
+}
+
+.special-offer-content {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.special-offer-text {
+  font-size: 17px;
+  line-height: normal;
+  width: 90%;
+  letter-spacing: 1px;
+  margin: auto;
+  text-transform: uppercase;
+  color: #fc7368;
+}

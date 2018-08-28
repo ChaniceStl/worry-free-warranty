@@ -3,7 +3,7 @@ node_modules
 *.log
 npm-debug.log*
 
-frontend/public
+src/public
 
 backend/config/config.json
 .DS_Store

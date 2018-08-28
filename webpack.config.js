@@ -3,9 +3,9 @@ const LiveReloadPlugin = require('webpack-livereload-plugin');
 
 
 module.exports = {
-  entry: './frontend/index.js',
+  entry: './src/index.js',
   output: {
-    path: `${__dirname}/frontend/public`,
+    path: `${__dirname}/src/public`,
     filename: 'bundle.js',
   },
   module: {
@@ -15,7 +15,7 @@ module.exports = {
         loader: 'babel-loader',
         options: { presets: ['es2015', 'react', 'stage-1'] }
       },
-      { test: /\.scss$/,
+      { test: /\.css$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
       }
      ]
